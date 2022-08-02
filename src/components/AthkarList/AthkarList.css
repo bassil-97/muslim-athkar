@@ -1,0 +1,39 @@
+.athkar-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 1rem;
+}
+
+.athkar-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+    padding: 1.5rem;
+    outline: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.athkar-item .zekr-count {
+    margin-top: 15px;
+}
+
+.athkar-item h6 {
+    margin-bottom: 20px;
+}
+
+.athkar-item h6, .athkar-item small {
+    font-family: 'Tajawal', sans-serif !important;
+    text-align: center;
+    direction: rtl;
+}
+
+.athkar-item small {
+    font-size: .8em;
+    opacity: .5;
+}

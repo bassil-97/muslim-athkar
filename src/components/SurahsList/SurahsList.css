@@ -1,0 +1,55 @@
+.surahs-list {
+    padding: 1.5rem;
+    margin-top: 20px;
+}
+
+.surah-card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 35px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px !important;
+    border-radius: 10px !important;
+}
+
+.surah-card-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.surah-card-body {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.surah-card-body h6 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+}
+
+.surah-card-body small { text-transform: uppercase; }
+
+.surah-card-header .surah-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    background-color: #dbf2ec;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.surah-card-header .favorite-surah-btn {
+    color: #F2F3F4;
+}
+
+.surah-card-header .favorite-surah-btn:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.last-read-card {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.last-read-content small {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.last-read-content h5 {
+    color: black;
+    font-weight: bold;
+}
+
+.last-read-content span {
+    font-size: .8rem;
+}
+
+.last-read-icon {
+    font-size: 3rem !important;
+    color: rgb(224, 223, 223);
+}

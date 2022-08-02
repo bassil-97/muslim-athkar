@@ -1,0 +1,9 @@
+.tasbeeh-items-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    gap: 20px;
+    margin-top: 30px;
+}

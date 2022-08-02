@@ -1,0 +1,29 @@
+.prayer-times {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+.prayer-times .row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.prayer-time-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    outline: 1px solid lightgray;
+    padding: 1.5rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+.prayer-time-header h6 {
+    margin-bottom: 0px;
+}

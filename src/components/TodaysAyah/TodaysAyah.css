@@ -1,0 +1,22 @@
+.todays-ayah {
+    width: 100%;
+    border-radius: 14px;
+    padding: 1.5rem;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.todays-ayah small {
+    color: #97d4c4;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.todays-ayah h6 {
+    color: white;
+    line-height: 26px;
+}

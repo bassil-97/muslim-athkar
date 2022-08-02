@@ -1,0 +1,24 @@
+.surah-card-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 15rem;
+    margin-top: 10px;
+    padding: 1.5rem;
+    outline: 1px solid var(--primary-color);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.surah-card-info small {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.surah-card-info h6 {
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
